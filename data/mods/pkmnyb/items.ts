@@ -14,7 +14,7 @@ export const Items: {[k: string]: ModdedItemData} = {
         },
         num: 84,
         gen: 1,
-        desc: "Holder's Water-type and Ice-type attacks have 1.2x power. Evolves certain species of Pokemon when used",
+        desc: "Holder's Water-type and Ice-type attacks have 1.2x power. Evolves certain species of Pokemon when used.",
     },
     "firestone": {
         id: "firestone",

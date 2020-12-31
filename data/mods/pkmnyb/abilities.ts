@@ -262,6 +262,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		  num: 208,
 	 },
 	 "shadowbeacon": {
+		  shortDesc: "placeholder",
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Shadow Beacon');
 		},

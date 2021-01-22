@@ -31,6 +31,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 				this.add('-fieldend', 'move: G-Max Beheading');
 			},
 		},
+		onPrepareHit: function(target, source, move) {
+			this.attrLastMove('[still]');
+			this.add('-anim', source, "Savage Spin-Out", target);
+		},
 		secondary: null,
 		target: "adjacentFoe",
 		type: "Bug",
@@ -55,6 +59,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 				}
 			},
 		},
+		onPrepareHit: function(target, source, move) {
+			this.attrLastMove('[still]');
+			this.add('-anim', source, "Corkscrew Crash", target);
+		},
 		target: "adjacentFoe",
 		type: "Bug",
 		contestType: "Tough",
@@ -70,6 +78,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		priority: 0,
 		flags: {contact: 1},
 		isMax: "Lycanroc-Dusk",
+		onPrepareHit: function(target, source, move) {
+			this.attrLastMove('[still]');
+			this.add('-anim', source, "Splintered Stormshards", target);
+		},
 		secondary: null,
 		target: "adjacentFoe",
 		type: "Rock",
@@ -88,6 +100,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		isMax: "Magnezone",
 		onEffectiveness(typeMod, target, type) {
 			if (type === 'Steel') return 1;
+		},
+		onPrepareHit: function(target, source, move) {
+			this.attrLastMove('[still]');
+			this.add('-anim', source, "Max Steelspike", target);
 		},
 		secondary: null,
 		target: "adjacentFoe",
@@ -116,6 +132,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 				}
 			},
 		},
+		onPrepareHit: function(target, source, move) {
+			this.attrLastMove('[still]');
+			this.add('-anim', source, "Glacial Lance", target);
+		},
 		target: "adjacentFoe",
 		type: "Ice",
 		contestType: "Cool",
@@ -136,6 +156,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 				source.side.foe.addSideCondition('toxicspikes');
 				source.side.foe.addSideCondition('toxicspikes');
 			},
+		},
+		onPrepareHit: function(target, source, move) {
+			this.attrLastMove('[still]');
+			this.add('-anim', source, "Acid Downpour", target);
 		},
 		ignoreImmunity: true,
 		secondary: null,
@@ -199,6 +223,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 				return false;
 			},
 		},
+		onPrepareHit: function(target, source, move) {
+			this.attrLastMove('[still]');
+			this.add('-anim', source, "Poltergeist", target);
+		},
 		secondary: null,
 		target: "adjacentFoe",
 		type: "Ghost",
@@ -220,6 +248,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 				source.side.foe.addSideCondition('spikes');
 				source.side.foe.addSideCondition('stealthrock');
 			},
+		},
+		onPrepareHit: function(target, source, move) {
+			this.attrLastMove('[still]');
+			this.add('-anim', source, "Earthquake", target);
 		},
 		secondary: null,
 		target: "adjacentFoe",
@@ -308,6 +340,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		flags: {sound: 1},
 		isMax: "Primarina",
 		secondary: null,
+		onPrepareHit: function(target, source, move) {
+			this.attrLastMove('[still]');
+			this.add('-anim', source, "Oceanic Operetta", target);
+		},
 		target: "adjacentFoe",
 		type: "Fairy",
 		contestType: "Beautiful",
@@ -346,6 +382,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 					this.add('-start', source, 'Doom Desire');
 				}
 			},
+		},
+		onPrepareHit: function(target, source, move) {
+			this.attrLastMove('[still]');
+			this.add('-anim', source, "Corkscrew Crash", target);
 		},
 		secondary: null,
 		target: "adjacentFoe",

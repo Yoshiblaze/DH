@@ -237,6 +237,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			toxic: ["3L1"],
 			vinewhip: ["3L1"],
 			weatherball: ["3M"],
+			shadowball: ["3L1"],
+			rockslide: ["3L1"],
 		},
 	},
 	charmander: {

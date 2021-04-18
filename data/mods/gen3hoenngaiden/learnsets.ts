@@ -8206,6 +8206,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			triattack: ["3L1"],
 			uproar: ["3T"],
 			whirlwind: ["3L1"],
+			lowkick: ["3L1"],
 		},
 	},
 	seel: {
@@ -11798,7 +11799,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			aerialace: ["3M"],
 			attract: ["3M"],
 			barrier: ["3L1"],
-			batonpass: ["3M"],
 			bide: ["3L1"],
 			bodyslam: ["3M"],
 			brickbreak: ["3M"],
@@ -16100,6 +16100,15 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			thunderpunch: ["3T"],
 			toxic: ["3M"],
 			uproar: ["3T"],
+			psychic: ["3L1"],
+			tailglow: ["3L1"],
+			calmmind: ["3L1"],
+			recover: ["3L1"],
+			futuresight: ["3L1"],
+			sleeppowder: ["3L1"],
+			stunspore: ["3L1"],
+			trick: ["3L1"],
+			whirlwind: ["3L1"],
 		},
 	},
 	spinarak: {
@@ -26919,6 +26928,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			watergun: ["3L1"],
 			waterpulse: ["3T"],
 			whirlpool: ["3M"],
+			agility: ["3L1"],
 		},
 	},
 	baltoy: {
@@ -27268,6 +27278,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			toxic: ["3M"],
 			watergun: ["3L1"],
 			waterpulse: ["3T"],
+			signalbeam: ["3L1"],
+			raindance: ["3L1"],
 		},
 	},
 	feebas: {
@@ -27773,6 +27785,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			toxic: ["3M"],
 			trick: ["3M"],
 			willowisp: ["3M"],
+			moonlight: ["3L1"],
+			bulkup: ["3L1"],
 		},
 	},
 	dusknoir: {

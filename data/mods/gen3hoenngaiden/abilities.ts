@@ -254,4 +254,16 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		rating: 3,
 		num: 146,
 	},
+	icebody: {
+		inherit: true,
+	},
+	galvanize: {
+		inherit: true,
+	},
+	overcoat: {
+		inherit: true,
+	},
+	magicguard: {
+		inherit: true,
+	},
 };

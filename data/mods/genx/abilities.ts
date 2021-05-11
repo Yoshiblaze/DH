@@ -1,5 +1,5 @@
 export const Abilities: {[k: string]: ModdedAbilityData} = {
-/*
+
 	windblaster: {
 		id: "windblaster",
 		name: "Wind Blaster",
@@ -29,7 +29,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 			duration: 1,
 		},
 	},
-*/
+
 	piercingvision: {
 		id: "piercingvision",
 		onModifyMovePriority: -5,
@@ -77,7 +77,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		name: "Deep Sea",
 		rating: 3,
 	},
-/*
+
 	patience: {
 		id: "patience",
 		shortDesc: "This Pokemon takes 50% damage from moves if it hasn't moved yet.",
@@ -90,7 +90,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		name: "Patience",
 		rating: 3.5,
 	},
-	*/
+
 	prowess: {
 		id: "prowess",
 		shortDesc: "This Pokemon's SpA goes up by 1 stage after a KO.",
@@ -248,7 +248,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		name: "Earth Shaker",
 		rating: 0.1,
 	},
-	/*
+
 	earthshaker: {
 		id: "earthshaker",
 		shortDesc: "This Pokemon's Ground moves deal 1.5x damage if it was damage earlier in the turn.",
@@ -279,15 +279,8 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		},
 		name: "Earth Shaker",
 		rating: 3.5,
-	}, */
+	}, 
 	
-	hotheaded: {
-		id: "hotheaded",
-		shortDesc: "Placeholder, does nothing right now.",
-		name: "Hot-Headed",
-		rating: 0.1,
-	},
-	/*
 	hotheaded: {
 		onDamagingHit(damage, target, source, effect) {
 			target.addVolatile('focusenergy');
@@ -295,7 +288,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		name: "Hot-Headed",
 		rating: 3.5,
 	},
-	*/
+
 	thoughtful: {
 		id: "thoughtful",
 		shortDesc: "Placeholder, does nothing right now.",

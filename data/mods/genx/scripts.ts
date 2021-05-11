@@ -127,7 +127,7 @@ this.modData('Learnsets', 'meowstic').learnset.pressurecook = ['7L1'];
 this.modData('Learnsets', 'meowsticf').learnset.pressurecook = ['7L1'];
 	},
 	// BattlePokemon scripts. Commented out for safety but an implementation for Tree-Topper is there.
-	/*
+
 	pokemon: {
 		//
 		isGrounded(negateImmunity) {
@@ -151,5 +151,5 @@ this.modData('Learnsets', 'meowsticf').learnset.pressurecook = ['7L1'];
 			return item !== 'airballoon';
 		}
 	},
-	*/
+
 };

@@ -189,7 +189,7 @@ export const Moves: {[moveid: string]: ModdedMoveData} = {
 		target: "normal",
 		type: "Fighting",
 	},
-/*
+
 	clinch: {
 		accuracy: 100,
 		basePower: 60,
@@ -255,7 +255,7 @@ export const Moves: {[moveid: string]: ModdedMoveData} = {
 		zMove: {boost: {atk: 1}},
 		contestType: "Cool",
 	},
-*/
+
 	centuryblade: {
 		accuracy: 90,
 		basePower: 120,
